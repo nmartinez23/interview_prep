@@ -1,3 +1,5 @@
+# this assumes you buy before you sell. O(n) time and O(1) space. We only loop through the array once.
+
 def get_max_profit(stock_prices_yesterday)
   # check if there are at least two prices or else throw an error
   if stock_prices_yesterday.length < 2
