@@ -1,2 +1,3 @@
-# interview_prep
-Interview exercises with comments
+# Interview Prep
+
+Ruby coding exercises with comments.
