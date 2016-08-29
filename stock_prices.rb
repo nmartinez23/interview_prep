@@ -1,4 +1,5 @@
-# this assumes you buy stock before you sell. O(n) time and O(1) space complexity. We only loop through the array once.
+# from Interview Cake - this assumes you buy stock before you sell. 
+# Complexity is O(n) time and O(1) space. We only loop through the array once.
 
 def get_max_profit(stock_prices_yesterday)
   # check if there are at least two prices or else throw an error
