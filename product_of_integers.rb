@@ -1,4 +1,4 @@
-# from Interview Cake - You have an array of integers, and for each index you want to find the product of every
+# You have an array of integers, and for each index you want to find the product of every
 # integer except the integer at that index.
 # Write a function that takes an array of integers and returns an array of the products.
 # This algorithm uses a greedy approach. Complexity is O(n) time and O(n)O(n) space. We make two passes
