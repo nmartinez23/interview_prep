@@ -1,9 +1,9 @@
-# You want to add a feature to see the times in a day when everyone in the office is available for a meeting.
-# To do this, you’ll need to know when any team is having a meeting. 
-# Each meeting time is stored as arrays of integers [start_time, end_time]. 
-# These integers represent the number of 30-minute blocks past 9:00am.
+# Add a feature to see the times in a day when everyone in the office is available for a meeting.
+# To do this, you’ll need to know when any team is having a meeting. Each meeting time is stored 
+# as arrays of integers [start_time, end_time]. These integers represent the number of 30-minute blocks past 9:00am.
 # Write a function that takes a nested array of meeting time ranges and returns an array of condensed ranges.
 # Do not assume the meetings are in order. The meeting times are coming from multiple teams.
+# Complexity is O(n lg n) time and O(n) space. If input array is already sorted, O(n) time.
 
 def merge_ranges(meetings)
     
