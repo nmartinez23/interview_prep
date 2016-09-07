@@ -1,4 +1,5 @@
-
+# Write a function to find the 2nd largest element in a binary search tree
+# Complexity is O(lgn) if the tree is balanced, O(n) otherwise. O(1) space
 
 class BinaryTreeNode
   attr_accessor :value
