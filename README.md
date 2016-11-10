@@ -1,3 +1,3 @@
 # Interview Prep
 
-Ruby coding exercises with comments.
+Javascript and Ruby coding exercises with comments.
