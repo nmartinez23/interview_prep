@@ -19,11 +19,11 @@ function highestProductOf3 (arrayOfInts) {
     var current = arrayOfInts[i];
 
     highestProductOf3 = Math.max(highestProductOf3, current * highestProductOf2,
-                                     current * lowestProductOf2);
+                                 current * lowestProductOf2);
     highestProductOf2 = Math.max(highestProductOf2, current * highest,
-                                     current * lowest);
+                                 current * lowest);
     lowestProductOf2 = Math.min(lowestProductOf2, current * highest,
-                                    current * lowest);
+                                current * lowest);
     highest = Math.max(highest, current);
         lowest = Math.min(lowest, current);
   }
