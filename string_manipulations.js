@@ -7,16 +7,16 @@ var myString = 'Hello World. How are you doing?';
 var splits = myString.split(' ', 3);
 // ['Hello', 'World.', 'How']
 
-var str = 'hello;
+var str = 'hello';
 var strReverse = str.split('').reverse().join('');
 // 'olleh'
 
-Function reverse(str) {
-  Var newString = ‘’;
-  For (var i = str.length - 1; i >= 0; i--) {
+function reverse(str) {
+  var newString = ‘’;
+  for (var i = str.length - 1; i >= 0; i--) {
     newString += str[i];
   }
-  Return newString;
+  return newString;
 }
 reverse(‘hello’);
 // ‘olleh’
