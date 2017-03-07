@@ -33,4 +33,6 @@ b.next = c;
 c.next = d;
 console.log(reverse(a));
 
-
+// Answer:  LinkedListNode {
+  	//	value: 9,
+  	//	next: LinkedListNode { value: 7, next: LinkedListNode { value: 5, next: [Object] } } }
