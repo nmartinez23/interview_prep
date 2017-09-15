@@ -7,7 +7,6 @@ def is_even?(n)
   end
 end
 
-
 def is_odd?(n)
  return ! is_even?(n)
 end
@@ -16,3 +15,16 @@ puts "1 is_even? #{is_even?(1)} - is_odd? #{is_odd?(1)}"
 puts "2 is_even? #{is_even?(2)} - is_odd? #{is_odd?(2)}"
 puts "3 is_even? #{is_even?(3)} - is_odd? #{is_odd?(3)}"
 puts "4 is_even? #{is_even?(4)} - is_odd? #{is_odd?(4)}"
+
+
+
+# check if num is even or odd.
+def even_or_odd(num)
+  if num % 2 == 0
+    return "Even"
+  else
+    return "Odd"
+  end
+end
+puts even_or_odd(3)  #Odd
+
