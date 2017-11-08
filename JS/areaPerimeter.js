@@ -8,3 +8,12 @@ function Rectangle(a, b) {
 
   return rectangle;
 }
+
+
+
+function Rectangle(length, width) {
+  this.area = length * width;
+  this.perimeter = (length + width) * 2;
+}
+
+let rect = new Rectangle(4, 8);
