@@ -31,7 +31,7 @@ function isBalanced(treeRoot) {
     // pop a node and its depth from the top of our stack
     var nodePair = nodes.pop();
     var node  = nodePair[0],
-    depth = nodePair[1];
+    var depth = nodePair[1];
 
     // case: we found a leaf
     if (!node.left && !node.right) {
