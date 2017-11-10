@@ -10,6 +10,8 @@ function vowelsAndConsonants(s) {
     if(letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u") {
       vowels.push(letter);
       console.log(letter);
+    } else if (letter === " ") {
+      str.splice(letter, 1);
     } else {
       consonants.push(letter);
     }
