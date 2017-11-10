@@ -6,13 +6,24 @@ function toWeirdCase(string){
 
   for(var i = 0; i < string.length; i++) {
     arr.push(i % 2 == 0 ? string[i].toUpperCase() : string[i].toLowerCase());
-    if(string[i] === " ") {
-      i = 0;
-    }
   }
 
   return arr.join('');
 }
 
-var result = toWeirdCase('hello there');
-console.log(result);
+
+function weirdCase(str) {
+  let result = [];
+  
+  for (let i = 0; i < str.length; i++) {
+    if (i % 2 === 0) {
+      result.push(str[i].toUpperCase());
+    } else {
+      result.push(str[i].toLowerCase());
+    }
+  }
+  
+  return result.join('');
+}
+
+toWeirdCase('hello there');
