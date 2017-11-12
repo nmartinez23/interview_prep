@@ -13,3 +13,19 @@ function getSecondLargest(nums) {
     }
   }
 }
+
+
+
+function getSecondLargest(nums) {
+  let sorted = nums.sort();
+  let largest = sorted.length - 1;
+  
+  for (let i = largest; i >= 0; i--) {
+    if (sorted[i] < sorted[largest]) {
+      return sorted[i];
+      i--;      
+    }
+  }
+}
+
+getSecondLargest([2,1,3,4])
