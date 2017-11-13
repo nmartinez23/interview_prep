@@ -29,9 +29,9 @@ function bstChecker(treeRoot) {
   // depth-first traversal
   while (nodeAndBoundsStack.length) {
     var nodeAndBounds = nodeAndBoundsStack.pop();
-    var node = nodeAndBounds.node,
-    lowerBound = nodeAndBounds.lowerBound,
-    upperBound = nodeAndBounds.upperBound;
+    var node = nodeAndBounds.node;
+    var lowerBound = nodeAndBounds.lowerBound;
+    var upperBound = nodeAndBounds.upperBound;
 
     if (node.value < lowerBound || node.value > upperBound) {
       return false;
@@ -50,7 +50,9 @@ function bstChecker(treeRoot) {
 };
 
 var tree = new BinaryTreeNode(50);
-bstChecker(tree);
+tree.insertLeft(49);
+tree.insertRight(48);
+bstChecker(tree);  // false
 
 // Recursive solution below
 
